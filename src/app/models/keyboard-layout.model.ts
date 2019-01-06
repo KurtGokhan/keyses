@@ -23,11 +23,6 @@ export interface KeyboardKeyShape {
   position?: Vector2; // Defaults to [0, 0]
 }
 
-export interface KeyboardKeyCodeMapping {
-  code: number;
-  metaKey?: string | number;
-}
-
 export type KeyboardElementType = 'key' | 'space';
 
 export interface KeyboardKey {
@@ -36,7 +31,7 @@ export interface KeyboardKey {
   offset?: Vector2; // Defaults to no offset
   shape?: KeyboardKeyShape | KeyboardKeyShape[]; // Defaults to a rectangular shape (1, 1)
   bevel?: KeyboardPadding; // Defaults to [0, 0.1, 0.1, 0.1]
-  codes: KeyboardKeyCodeMapping[];
+  code: string;
 }
 
 export interface KeyboardSpace {

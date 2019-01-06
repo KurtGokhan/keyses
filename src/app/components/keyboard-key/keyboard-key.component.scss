@@ -1,11 +1,20 @@
 .key {
+  --key-background: white;
+
   user-select: none;
   position: relative;
   height: 100%;
   box-sizing: border-box;
   font-size: 12px;
   display: inline-block;
-  box-shadow: 0px 0px 5px -2px black;
+
+  :hover {
+    --key-background: #dedede;
+  }
+
+  &.pressed {
+    --key-background: #bebebe;
+  }
 
   .key-content {
     position: relative;
@@ -22,14 +31,14 @@
       border-radius: 3px;
 
       &.border {
-        background: black;
+        background: dimgray;
       }
 
       &.colored {
         padding: 1px;
 
         .content {
-          background: gray;
+          background: #a0a0a0;
         }
       }
 
@@ -38,7 +47,7 @@
         height: 100%;
         box-sizing: border-box;
         border-radius: 3px;
-        background: white;
+        background: var(--key-background);
       }
     }
 

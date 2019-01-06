@@ -1,5 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { KeyboardKey, KeyboardPadding, KeyboardKeyShape } from 'src/app/models/keyboard-layout.model';
+import { Component, Input, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { KeyboardKey, KeyboardKeyShape, KeyboardPadding } from 'src/app/models/keyboard-layout.model';
+import { KeyStateService } from 'src/app/services/key-state.service';
 
 @Component({
   selector: 'app-keyboard-key',
@@ -12,7 +15,11 @@ export class KeyboardKeyComponent implements OnInit {
 
   @Input() key: KeyboardKey;
 
-  constructor() { }
+  pressed: Observable<boolean>;
+
+  constructor(keyState: KeyStateService) {
+    this.pressed = keyState.keys.pipe(map(keys => !!keys.keys.find(x => x.code === this.key.code)));
+  }
 
   ngOnInit() {
   }

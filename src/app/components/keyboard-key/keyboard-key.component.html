@@ -1,4 +1,4 @@
-<div class="key" [style.width]="(key.shape || defaultShape)[0].size[0] | keySize">
+<div class="key" [style.width]="(key.shape || defaultShape)[0].size[0] | keySize" [class.pressed]="pressed | async">
   <div class="key-content">
     <div class="bevel border" *ngFor="let shape of (key.shape || defaultShape)" [style.width]="shape.size[0] | keySize"
       [style.height]="shape.size[1] | keySizePercentage" [style.left]="(shape.position || [])[0] | keySize:0"

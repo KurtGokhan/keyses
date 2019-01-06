@@ -12,16 +12,24 @@ export class KeyDetectComponent {
 
   @HostListener('window:keydown', ['$event'])
   private onKeyDown(event: KeyboardEvent) {
+    event.preventDefault();
+    event.stopPropagation();
+
     if (event.repeat) {
-      return;
+      return false;
     }
 
     this.keyState.keyDown(event);
+    return false;
   }
 
   @HostListener('window:keyup', ['$event'])
   private onKeyUp(event: KeyboardEvent) {
+    event.preventDefault();
+    event.stopPropagation();
+
     this.keyState.keyUp(event);
+    return false;
   }
 
   @HostListener('window:blur', ['$event'])
