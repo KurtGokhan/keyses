@@ -1,0 +1,7 @@
+<div *ngIf="layout" class="keyboard" [style.padding]="layout.padding | shorthand">
+  <div *ngFor="let row of layout?.rows" class="keyboard-row" [style.padding]="row.padding | shorthand" [style.height]="row.height | keySize">
+    <app-keyboard-element *ngFor="let element of row.elements" [element]="element"></app-keyboard-element>
+  </div>
+
+  <app-keyboard-element *ngFor="let element of layout?.absoluteElements" [element]="element"></app-keyboard-element>
+</div>

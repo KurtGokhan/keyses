@@ -1,0 +1,54 @@
+.key {
+  user-select: none;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  display: inline-block;
+  box-shadow: 0px 0px 5px -2px black;
+
+  .key-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    .bevel {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 3px;
+
+      &.border {
+        background: black;
+      }
+
+      &.colored {
+        padding: 1px;
+
+        .content {
+          background: gray;
+        }
+      }
+
+      .content {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        border-radius: 3px;
+        background: white;
+      }
+    }
+
+    .label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 1em;
+      line-height: 1em;
+    }
+  }
+
+}

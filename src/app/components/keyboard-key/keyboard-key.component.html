@@ -1,0 +1,27 @@
+<div class="key" [style.width]="(key.shape || defaultShape)[0].size[0] | keySize">
+  <div class="key-content">
+    <div class="bevel border" *ngFor="let shape of (key.shape || defaultShape)" [style.width]="shape.size[0] | keySize"
+      [style.height]="shape.size[1] | keySizePercentage" [style.left]="(shape.position || [])[0] | keySize:0"
+      [style.top]="(shape.position || [])[1] | keySizePercentage:0">
+    </div>
+
+    <div class="bevel colored" *ngFor="let shape of (key.shape || defaultShape)" [style.width]="shape.size[0] | keySize"
+      [style.height]="shape.size[1] | keySizePercentage" [style.left]="(shape.position || [])[0] | keySize:0"
+      [style.top]="(shape.position || [])[1] | keySizePercentage:0">
+      <div class="content">
+      </div>
+    </div>
+
+    <div class="bevel" *ngFor="let shape of (key.shape || defaultShape)" [style.width]="shape.size[0] | keySize"
+      [style.height]="shape.size[1] | keySizePercentage" [style.padding]="(key.bevel || defaultBevel) | shorthand:1"
+      [style.left]="(shape.position || [])[0] | keySize:0" [style.top]="(shape.position || [])[1] | keySizePercentage:0">
+      <div class="content">
+      </div>
+    </div>
+
+    <div class="label" *ngFor="let label of key.labels" [style.padding]="(key.bevel || defaultBevel) | shorthand:5"
+      [ngStyle]="label.position | labelPositioner">
+      {{label.content}}
+    </div>
+  </div>
+</div>

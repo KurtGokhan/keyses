@@ -1,0 +1,4 @@
+<ng-container [ngSwitch]="element.type">
+  <app-keyboard-key *ngSwitchCase="'key'" [key]="element"></app-keyboard-key>
+  <div *ngSwitchDefault [style.width]="element.size | keySize" class="space"></div>
+</ng-container>
