@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { KeyboardLayout } from 'src/app/models/keyboard-layout.model';
+import { KeyboardLayout } from '~/models/keyboard-layout.model';
 
 @Component({
   selector: 'app-keyboard-view',

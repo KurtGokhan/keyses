@@ -8,12 +8,12 @@
   font-size: 12px;
   display: inline-block;
 
-  :hover {
+  :not(.pressed):hover {
     --key-background: #dedede;
   }
 
   &.pressed {
-    --key-background: #bebebe;
+    --key-background: #bebebe !important;
   }
 
   .key-content {

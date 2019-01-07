@@ -1,6 +1,6 @@
 import { Component, OnInit, Output, ViewChild, ElementRef, EventEmitter, OnDestroy, HostListener } from '@angular/core';
-import { Key, KeyCombination } from 'src/app/models/key.model';
-import { KeyStateService } from 'src/app/services/key-state.service';
+import { Key, KeyCombination } from '~/models/key.model';
+import { KeyStateService } from '~/services/key-state.service';
 
 @Component({
   selector: 'app-key-detect',

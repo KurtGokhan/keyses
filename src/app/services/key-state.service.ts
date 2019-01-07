@@ -30,6 +30,15 @@ export class KeyStateService {
     this.fireChange();
   }
 
+  public keyToggle(key: Key) {
+    const ind = this.downKeys.findIndex(x => x.code === key.code);
+    if (ind >= 0) {
+      this.keyUp(key);
+    } else {
+      this.keyDown(key);
+    }
+  }
+
   public clearKeys() {
     this.downKeys.splice(0, this.downKeys.length);
     this.fireChange();
