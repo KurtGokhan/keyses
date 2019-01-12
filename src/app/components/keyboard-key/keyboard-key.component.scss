@@ -5,61 +5,63 @@
   box-sizing: border-box;
   font-size: 12px;
   display: inline-block;
+  pointer-events: all;
 
-  &:not(.pressed):hover {
-    .key-content .bevel:not(.colored) .content {
+  .key-filler {
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+  &:hover:not(.pressed) {
+    .bevel:not(.colored) .content {
       background: #dedede;
     }
   }
 
   &.pressed {
-    .key-content .bevel:not(.colored) .content {
+    .bevel:not(.colored) .content {
       background: #bebebe;
     }
   }
 
-  .key-content {
-    position: relative;
+  .bevel {
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 3px;
 
-    .bevel {
+    &.border {
+      background: dimgray;
+    }
+
+    &.colored {
+      padding: 1px;
+
+      .content {
+        background: #a0a0a0;
+      }
+    }
+
+    .content {
       width: 100%;
       height: 100%;
       box-sizing: border-box;
-      position: absolute;
-      left: 0;
-      top: 0;
       border-radius: 3px;
-
-      &.border {
-        background: dimgray;
-      }
-
-      &.colored {
-        padding: 1px;
-
-        .content {
-          background: #a0a0a0;
-        }
-      }
-
-      .content {
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box;
-        border-radius: 3px;
-        background: white;
-      }
-    }
-
-    .label {
-      position: absolute;
-      top: 0;
-      left: 0;
-      font-size: 1em;
-      line-height: 1em;
+      background: white;
     }
   }
 
+  .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1em;
+    line-height: 1em;
+    pointer-events: none;
+  }
 }
+
