@@ -20,7 +20,11 @@
         { "type": "key", "labels": [{ "content": "F9", "position": "middle left" }], "code": "F9" },
         { "type": "key", "labels": [{ "content": "F10", "position": "middle left" }], "code": "F10" },
         { "type": "key", "labels": [{ "content": "F11", "position": "middle left" }], "code": "F11" },
-        { "type": "key", "labels": [{ "content": "F12", "position": "middle left" }], "code": "F12" }
+        { "type": "key", "labels": [{ "content": "F12", "position": "middle left" }], "code": "F12" },
+        { "size": 0.3 },
+        { "type": "key", "labels": [{ "content": "PrtSc SysRq", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "PrtSc" },
+        { "type": "key", "labels": [{ "content": "Scroll Lock", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "ScrollLock" },
+        { "type": "key", "labels": [{ "content": "Pause Break", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "Pause" }
       ]
     },
     {
@@ -39,7 +43,18 @@
         { "type": "key", "labels": [{ "content": "*", "position": "bottom left" }], "code": "Minus" },
         { "type": "key", "labels": [{ "content": "-", "position": "bottom left" }], "code": "Equal" },
         { "type": "key", "labels": [{ "content": ",", "position": "bottom left" }], "code": "Backslash" },
-        { "type": "key", "labels": [{ "content": "<", "position": "middle center" }], "code": "Backspace" }
+        { "type": "key", "labels": [{ "content": "<", "position": "middle center" }], "code": "Backspace" },
+
+        { "size": 0.3 },
+        { "type": "key", "labels": [{ "content": "Insert", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "Insert" },
+        { "type": "key", "labels": [{ "content": "Home", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "Home" },
+        { "type": "key", "labels": [{ "content": "Page Up", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "PageUp" },
+
+        { "size": 0.3 },
+        { "type": "key", "labels": [{ "content": "Num Lock", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "NumLock" },
+        { "type": "key", "labels": [{ "content": "/", "position": "middle left" }], "code": "NumpadDivide" },
+        { "type": "key", "labels": [{ "content": "*", "position": "middle left" }], "code": "NumpadMultiply" },
+        { "type": "key", "labels": [{ "content": "-", "position": "middle left" }], "code": "NumpadSubtract" }
       ]
     },
     {
@@ -60,7 +75,18 @@
         {
           "type": "key", "labels": [{ "content": "Enter", "position": [0, 1.5, 0, -0.5] }], "code": "Enter",
           "shape": [{ "size": [1.5, 2] }, { "size": [2.25, 1], "position": [-0.75, 1] }]
-        }
+        },
+
+        { "size": 0.3 },
+        { "type": "key", "labels": [{ "content": "Delete", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "Delete" },
+        { "type": "key", "labels": [{ "content": "End", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "End" },
+        { "type": "key", "labels": [{ "content": "Page Down", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "PageDown" },
+
+        { "size": 0.3 },
+        { "type": "key", "labels": [{ "content": "7", "position": "top left" }], "code": "Numpad7" },
+        { "type": "key", "labels": [{ "content": "8", "position": "top left" }], "code": "Numpad8" },
+        { "type": "key", "labels": [{ "content": "9", "position": "top left" }], "code": "Numpad9" },
+        { "type": "key", "labels": [{ "content": "+", "position": "bottom left" }], "code": "NumpadAdd", "shape": [{ "size": [1, 2] }] }
       ]
     },
     {
@@ -79,7 +105,13 @@
         { "type": "key", "labels": [{ "content": "K", "position": "top left" }], "code": "KeyK" },
         { "type": "key", "labels": [{ "content": "L", "position": "top left" }], "code": "KeyL" },
         { "type": "key", "labels": [{ "content": "Ş", "position": "top left" }], "code": "Semicolon" },
-        { "type": "key", "labels": [{ "content": "İ", "position": "top left" }], "code": "Quote" }
+        { "type": "key", "labels": [{ "content": "İ", "position": "top left" }], "code": "Quote" },
+        { "size": 2.25 },
+
+        { "size": 3.6 },
+        { "type": "key", "labels": [{ "content": "4", "position": "top left" }], "code": "Numpad4" },
+        { "type": "key", "labels": [{ "content": "5", "position": "top left" }], "code": "Numpad5" },
+        { "type": "key", "labels": [{ "content": "6", "position": "top left" }], "code": "Numpad6" }
       ]
     },
     {
@@ -102,7 +134,16 @@
         {
           "type": "key", "labels": [{ "content": "Shift", "position": "middle left" }], "code": "ShiftRight",
           "shape": [{ "size": [2.75, 1] }]
-        }
+        },
+
+        { "size": 1.3 },
+        { "type": "key", "labels": [{ "content": "^", "position": "middle center" }], "code": "ArrowUp" },
+        { "size": 1.3 },
+
+        { "type": "key", "labels": [{ "content": "1", "position": "top left" }], "code": "Numpad1" },
+        { "type": "key", "labels": [{ "content": "2", "position": "top left" }], "code": "Numpad2" },
+        { "type": "key", "labels": [{ "content": "3", "position": "top left" }], "code": "Numpad3" },
+        { "type": "key", "labels": [{ "content": "Enter", "position": "bottom left", "sizeMultiplier": 0.7 }], "code": "NumpadEnter", "shape": [{ "size": [1, 2] }] }
       ]
     },
     {
@@ -138,7 +179,16 @@
         {
           "type": "key", "labels": [{ "content": "Ctrl", "position": "middle left" }], "code": "ControlRight",
           "shape": [{ "size": [1.5, 1] }]
-        }
+        },
+
+        { "size": 0.3 },
+        { "type": "key", "labels": [{ "content": "<", "position": "middle center" }], "code": "ArrowLeft" },
+        { "type": "key", "labels": [{ "content": "v", "position": "middle center" }], "code": "ArrowDown" },
+        { "type": "key", "labels": [{ "content": ">", "position": "middle center" }], "code": "ArrowRight" },
+        { "size": 0.3 },
+
+        { "type": "key", "labels": [{ "content": "0", "position": "top left" }], "code": "Numpad0", "shape": [{ "size": [2, 1] }] },
+        { "type": "key", "labels": [{ "content": ",", "position": "top left" }], "code": "NumpadDecimal" }
       ]
     }
   ]

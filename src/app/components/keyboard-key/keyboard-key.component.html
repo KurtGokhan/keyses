@@ -21,6 +21,7 @@
   </div>
 
   <div class="label" *ngFor="let label of key.labels" [style.padding]="(key.bevel || defaultBevel) | shorthand:5"
+    [style.fontSize.em]="(label.sizeMultiplier || 1)"
     [ngStyle]="label.position | labelPositioner">
     {{label.content}}
   </div>
