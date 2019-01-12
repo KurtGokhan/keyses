@@ -1,0 +1,616 @@
+{
+    "$ref": "#/definitions/KeyboardLayout",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "KeyboardHorizontalAlignment": {
+            "enum": [
+                "center",
+                "left",
+                "right"
+            ],
+            "type": "string"
+        },
+        "KeyboardKey": {
+            "defaultProperties": [
+            ],
+            "properties": {
+                "bevel": {
+                    "anyOf": [
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 2,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 4,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 1,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 3,
+                            "type": "array"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                },
+                "code": {
+                    "type": "string"
+                },
+                "labels": {
+                    "items": {
+                        "$ref": "#/definitions/KeyboardLabel"
+                    },
+                    "type": "array"
+                },
+                "offset": {
+                    "additionalItems": {
+                        "anyOf": [
+                            {
+                                "type": "number"
+                            },
+                            {
+                                "type": "number"
+                            }
+                        ]
+                    },
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "minItems": 2,
+                    "type": "array"
+                },
+                "shape": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/KeyboardKeyShape"
+                        },
+                        {
+                            "items": {
+                                "$ref": "#/definitions/KeyboardKeyShape"
+                            },
+                            "type": "array"
+                        }
+                    ]
+                },
+                "type": {
+                    "enum": [
+                        "key"
+                    ],
+                    "type": "string"
+                }
+            },
+            "required": [
+                "code",
+                "labels",
+                "type"
+            ],
+            "type": "object"
+        },
+        "KeyboardKeyShape": {
+            "defaultProperties": [
+            ],
+            "properties": {
+                "position": {
+                    "additionalItems": {
+                        "anyOf": [
+                            {
+                                "type": "number"
+                            },
+                            {
+                                "type": "number"
+                            }
+                        ]
+                    },
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "minItems": 2,
+                    "type": "array"
+                },
+                "size": {
+                    "additionalItems": {
+                        "anyOf": [
+                            {
+                                "type": "number"
+                            },
+                            {
+                                "type": "number"
+                            }
+                        ]
+                    },
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "minItems": 2,
+                    "type": "array"
+                }
+            },
+            "required": [
+                "size"
+            ],
+            "type": "object"
+        },
+        "KeyboardLabel": {
+            "defaultProperties": [
+            ],
+            "properties": {
+                "content": {
+                    "type": "string"
+                },
+                "position": {
+                    "anyOf": [
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 2,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 4,
+                            "type": "array"
+                        },
+                        {
+                            "enum": [
+                                "bottom center",
+                                "bottom left",
+                                "bottom right",
+                                "middle center",
+                                "middle left",
+                                "middle right",
+                                "top center",
+                                "top left",
+                                "top right"
+                            ],
+                            "type": "string"
+                        }
+                    ]
+                },
+                "sizeMultiplier": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "content"
+            ],
+            "type": "object"
+        },
+        "KeyboardLayout": {
+            "defaultProperties": [
+            ],
+            "properties": {
+                "absoluteElements": {
+                    "items": {
+                        "anyOf": [
+                            {
+                                "$ref": "#/definitions/KeyboardKey"
+                            },
+                            {
+                                "$ref": "#/definitions/KeyboardSpace"
+                            }
+                        ]
+                    },
+                    "type": "array"
+                },
+                "padding": {
+                    "anyOf": [
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 2,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 4,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 1,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 3,
+                            "type": "array"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                },
+                "rows": {
+                    "items": {
+                        "$ref": "#/definitions/KeyboardRowDefinition"
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "KeyboardRowDefinition": {
+            "defaultProperties": [
+            ],
+            "properties": {
+                "alignment": {
+                    "$ref": "#/definitions/KeyboardHorizontalAlignment"
+                },
+                "elements": {
+                    "items": {
+                        "anyOf": [
+                            {
+                                "$ref": "#/definitions/KeyboardKey"
+                            },
+                            {
+                                "$ref": "#/definitions/KeyboardSpace"
+                            }
+                        ]
+                    },
+                    "type": "array"
+                },
+                "empty": {
+                    "type": "boolean"
+                },
+                "height": {
+                    "type": "number"
+                },
+                "padding": {
+                    "anyOf": [
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 2,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 4,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 1,
+                            "type": "array"
+                        },
+                        {
+                            "additionalItems": {
+                                "anyOf": [
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    },
+                                    {
+                                        "type": "number"
+                                    }
+                                ]
+                            },
+                            "items": [
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ],
+                            "minItems": 3,
+                            "type": "array"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                }
+            },
+            "type": "object"
+        },
+        "KeyboardSpace": {
+            "defaultProperties": [
+            ],
+            "properties": {
+                "size": {
+                    "type": "number"
+                },
+                "type": {
+                    "enum": [
+                        "space"
+                    ],
+                    "type": "string"
+                }
+            },
+            "required": [
+                "size"
+            ],
+            "type": "object"
+        }
+    }
+}
+

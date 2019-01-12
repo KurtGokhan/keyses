@@ -21,6 +21,8 @@ export class KeyboardKeyComponent implements OnInit {
 
   constructor(private keyState: KeyStateService) {
     this.pressed = keyState.keys.pipe(map(keys => !!keys.keys.find(x => x.code === this.key.code)));
+
+    this.onMouseUp = this.onMouseUp.bind(this);
   }
 
   ngOnInit() {
@@ -30,15 +32,15 @@ export class KeyboardKeyComponent implements OnInit {
   onMouseDown(event: MouseEvent) {
     if (event.button === 0) {
       this.keyState.keyDown({ code: this.key.code } as any);
-      this.beingClicked = true;
+      window.addEventListener('mouseup', this.onMouseUp);
     }
   }
 
-  @HostListener('window:mouseup', ['$event'])
   onMouseUp(event: MouseEvent) {
-    if (event.button === 0 && this.beingClicked) {
+    window.removeEventListener('mouseup', this.onMouseUp);
+
+    if (event.button === 0) {
       this.keyState.keyUp({ code: this.key.code } as any);
-      this.beingClicked = false;
     }
   }
 
