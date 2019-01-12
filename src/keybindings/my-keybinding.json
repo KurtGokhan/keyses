@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/keybindings-schema.json",
+  "commands": [
+    {
+      "id": "Forward",
+      "key": "W"
+    },
+    {
+      "id": "Left",
+      "key": "A"
+    },
+    {
+      "id": "Backward",
+      "key": "S"
+    },
+    {
+      "id": "Right",
+      "key": "D"
+    },
+    {
+      "id": "Sprint",
+      "key": "G"
+    },
+    {
+      "id": "Walk",
+      "key": "Shift"
+    },
+    {
+      "id": "Toggle Walk",
+      "key": "CapsLock"
+    },
+    {
+      "id": "Use",
+      "key": "E"
+    },
+    {
+      "id": "Favorites",
+      "key": "Q"
+    },
+    {
+      "id": "Sheathe",
+      "key": "R"
+    },
+    {
+      "id": "Sheathe",
+      "key": "R"
+    },
+    {
+      "id": "Wait",
+      "key": "T"
+    },
+    {
+      "id": "Crouch",
+      "key": "C"
+    },
+    {
+      "id": "Shout",
+      "key": "V"
+    },
+    {
+      "id": "Menu",
+      "key": "Tab"
+    },
+    {
+      "id": "Journal",
+      "key": "J"
+    },
+    {
+      "id": "Inventory",
+      "key": "I"
+    },
+    {
+      "id": "Magic",
+      "key": "P"
+    },
+    {
+      "id": "Map",
+      "key": "M"
+    },
+    {
+      "id": "System",
+      "key": "Esc"
+    },
+    {
+      "id": "Quick Save",
+      "key": "F5"
+    },
+    {
+      "id": "Quick Load",
+      "key": "F9"
+    }
+  ]
+}

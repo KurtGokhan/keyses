@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
-import { Key, KeyCombination } from '../models/key.model';
+import { Key, KeyCombination } from '~/models';
 
 @Injectable()
 export class KeyStateService {

@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { KeyboardPadding } from '../models/keyboard-layout.model';
+import { KeyboardPadding } from '~/models';
 
 @Pipe({
   name: 'shorthand'

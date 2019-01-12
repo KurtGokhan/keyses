@@ -1,7 +1,7 @@
 import { Component, Input, OnInit, HostListener } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { KeyboardKey, KeyboardKeyShape, KeyboardPadding } from '~/models/keyboard-layout.model';
+import { KeyboardKey, KeyboardKeyShape, KeyboardPadding } from '~/models';
 import { KeyStateService } from '~/services/key-state.service';
 
 @Component({

@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, ViewChild, ElementRef, EventEmitter, OnDestroy, HostListener } from '@angular/core';
-import { Key, KeyCombination } from '~/models/key.model';
+import { Key, KeyCombination } from '~/models';
 import { KeyStateService } from '~/services/key-state.service';
 
 @Component({

@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { KeyboardLabelPosition } from '../models/keyboard-layout.model';
+import { KeyboardLabelPosition } from '~/models';
 
 @Pipe({
   name: 'labelPositionerClass'

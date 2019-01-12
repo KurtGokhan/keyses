@@ -32,6 +32,7 @@ export interface KeyboardKey {
   shape?: KeyboardKeyShape | KeyboardKeyShape[]; // Defaults to a rectangular shape (1, 1)
   bevel?: KeyboardPadding; // Defaults to [0, 0.1, 0.1, 0.1]
   code: string;
+  aliases?: string[]; // To increase compatibility with existing standards. Preferred alias should be the first item
 }
 
 export interface KeyboardSpace {

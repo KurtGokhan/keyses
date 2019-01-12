@@ -1,4 +1,4 @@
-import { KeyboardPadding } from '../models/keyboard-layout.model';
+import { KeyboardPadding } from '~/models';
 
 export function paddingDefinitionToShorthand(padding: KeyboardPadding): string {
   if (!padding) {

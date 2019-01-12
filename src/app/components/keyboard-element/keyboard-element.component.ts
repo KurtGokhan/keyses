@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { KeyboardElement } from '~/models/keyboard-layout.model';
+import { KeyboardElement } from '~/models';
 
 @Component({
   selector: 'app-keyboard-element',

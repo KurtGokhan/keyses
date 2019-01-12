@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { KeyboardLayout } from '~/models/keyboard-layout.model';
+import { KeyboardLayout } from '~/models';
 import myLayout from '../../../keyboard-layouts/my-layout.json';
 
 @Component({

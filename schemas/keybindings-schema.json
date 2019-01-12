@@ -1,0 +1,55 @@
+{
+    "$ref": "#/definitions/KeyBindings",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "KeyBindings": {
+            "defaultProperties": [
+            ],
+            "properties": {
+                "commands": {
+                    "items": {
+                        "$ref": "#/definitions/KeyCommand"
+                    },
+                    "type": "array"
+                },
+                "modifierKeys": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "commands"
+            ],
+            "type": "object"
+        },
+        "KeyCommand": {
+            "defaultProperties": [
+            ],
+            "properties": {
+                "context": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "key": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "key"
+            ],
+            "type": "object"
+        }
+    }
+}
+

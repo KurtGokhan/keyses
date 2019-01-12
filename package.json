@@ -8,6 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+
+    "schemas": "npm run keybindings-schema && npm run keyboard-layout-schema",
+    "keybindings-schema": "typescript-json-schema tsconfig.json KeyBindings --useTypeOfKeyword --topRef --excludePrivate --strictNullChecks --required --defaultProps --out=schemas/keybindings-schema.json",
     "keyboard-layout-schema": "typescript-json-schema tsconfig.json KeyboardLayout --useTypeOfKeyword --topRef --excludePrivate --strictNullChecks --required --defaultProps --out=schemas/keyboard-layout-schema.json"
   },
   "private": true,

@@ -5,190 +5,751 @@
       "padding": [0.2, 0],
       "height": 0.7,
       "elements": [
-        { "type": "key", "labels": [{ "content": "Esc", "position": "middle left" }], "code": "Escape" },
-        { "size": 1 },
-        { "type": "key", "labels": [{ "content": "F1", "position": "middle left" }], "code": "F1" },
-        { "type": "key", "labels": [{ "content": "F2", "position": "middle left" }], "code": "F2" },
-        { "type": "key", "labels": [{ "content": "F3", "position": "middle left" }], "code": "F3" },
-        { "type": "key", "labels": [{ "content": "F4", "position": "middle left" }], "code": "F4" },
-        { "size": 0.5 },
-        { "type": "key", "labels": [{ "content": "F5", "position": "middle left" }], "code": "F5" },
-        { "type": "key", "labels": [{ "content": "F6", "position": "middle left" }], "code": "F6" },
-        { "type": "key", "labels": [{ "content": "F7", "position": "middle left" }], "code": "F7" },
-        { "type": "key", "labels": [{ "content": "F8", "position": "middle left" }], "code": "F8" },
-        { "size": 0.5 },
-        { "type": "key", "labels": [{ "content": "F9", "position": "middle left" }], "code": "F9" },
-        { "type": "key", "labels": [{ "content": "F10", "position": "middle left" }], "code": "F10" },
-        { "type": "key", "labels": [{ "content": "F11", "position": "middle left" }], "code": "F11" },
-        { "type": "key", "labels": [{ "content": "F12", "position": "middle left" }], "code": "F12" },
-        { "size": 0.3 },
-        { "type": "key", "labels": [{ "content": "PrtSc SysRq", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "PrtSc" },
-        { "type": "key", "labels": [{ "content": "Scroll Lock", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "ScrollLock" },
-        { "type": "key", "labels": [{ "content": "Pause Break", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "Pause" }
-      ]
-    },
-    {
-      "elements": [
-        { "type": "key", "labels": [{ "content": "\"", "position": "bottom left" }], "code": "Backquote" },
-        { "type": "key", "labels": [{ "content": "1", "position": "bottom left" }], "code": "Digit1" },
-        { "type": "key", "labels": [{ "content": "2", "position": "bottom left" }], "code": "Digit2" },
-        { "type": "key", "labels": [{ "content": "3", "position": "bottom left" }], "code": "Digit3" },
-        { "type": "key", "labels": [{ "content": "4", "position": "bottom left" }], "code": "Digit4" },
-        { "type": "key", "labels": [{ "content": "5", "position": "bottom left" }], "code": "Digit5" },
-        { "type": "key", "labels": [{ "content": "6", "position": "bottom left" }], "code": "Digit6" },
-        { "type": "key", "labels": [{ "content": "7", "position": "bottom left" }], "code": "Digit7" },
-        { "type": "key", "labels": [{ "content": "8", "position": "bottom left" }], "code": "Digit8" },
-        { "type": "key", "labels": [{ "content": "9", "position": "bottom left" }], "code": "Digit9" },
-        { "type": "key", "labels": [{ "content": "0", "position": "bottom left" }], "code": "Digit0" },
-        { "type": "key", "labels": [{ "content": "*", "position": "bottom left" }], "code": "Minus" },
-        { "type": "key", "labels": [{ "content": "-", "position": "bottom left" }], "code": "Equal" },
-        { "type": "key", "labels": [{ "content": ",", "position": "bottom left" }], "code": "Backslash" },
-        { "type": "key", "labels": [{ "content": "<", "position": "middle center" }], "code": "Backspace" },
-
-        { "size": 0.3 },
-        { "type": "key", "labels": [{ "content": "Insert", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "Insert" },
-        { "type": "key", "labels": [{ "content": "Home", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "Home" },
-        { "type": "key", "labels": [{ "content": "Page Up", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "PageUp" },
-
-        { "size": 0.3 },
-        { "type": "key", "labels": [{ "content": "Num Lock", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "NumLock" },
-        { "type": "key", "labels": [{ "content": "/", "position": "middle left" }], "code": "NumpadDivide" },
-        { "type": "key", "labels": [{ "content": "*", "position": "middle left" }], "code": "NumpadMultiply" },
-        { "type": "key", "labels": [{ "content": "-", "position": "middle left" }], "code": "NumpadSubtract" }
-      ]
-    },
-    {
-      "elements": [
-        { "type": "key", "labels": [{ "content": "Tab", "position": "middle left" }], "code": "Tab", "shape": [{ "size": [1.5, 1] }] },
-        { "type": "key", "labels": [{ "content": "Q", "position": "top left" }], "code": "KeyQ" },
-        { "type": "key", "labels": [{ "content": "W", "position": "top left" }], "code": "KeyW" },
-        { "type": "key", "labels": [{ "content": "E", "position": "top left" }], "code": "KeyE" },
-        { "type": "key", "labels": [{ "content": "R", "position": "top left" }], "code": "KeyR" },
-        { "type": "key", "labels": [{ "content": "T", "position": "top left" }], "code": "KeyT" },
-        { "type": "key", "labels": [{ "content": "Y", "position": "top left" }], "code": "KeyY" },
-        { "type": "key", "labels": [{ "content": "U", "position": "top left" }], "code": "KeyU" },
-        { "type": "key", "labels": [{ "content": "I", "position": "top left" }], "code": "KeyI" },
-        { "type": "key", "labels": [{ "content": "O", "position": "top left" }], "code": "KeyO" },
-        { "type": "key", "labels": [{ "content": "P", "position": "top left" }], "code": "KeyP" },
-        { "type": "key", "labels": [{ "content": "Ğ", "position": "top left" }], "code": "BracketLeft" },
-        { "type": "key", "labels": [{ "content": "Ü", "position": "top left" }], "code": "BracketRight" },
         {
-          "type": "key", "labels": [{ "content": "Enter", "position": [0, 1.5, 0, -0.5] }], "code": "Enter",
-          "shape": [{ "size": [1.5, 2] }, { "size": [2.25, 1], "position": [-0.75, 1] }]
+          "type": "key",
+          "labels": [{"content": "Esc", "position": "middle left"}],
+          "code": "Escape",
+          "aliases": ["esc", "escape"]
         },
-
-        { "size": 0.3 },
-        { "type": "key", "labels": [{ "content": "Delete", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "Delete" },
-        { "type": "key", "labels": [{ "content": "End", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "End" },
-        { "type": "key", "labels": [{ "content": "Page Down", "position": "middle left", "sizeMultiplier": 0.7 }], "code": "PageDown" },
-
-        { "size": 0.3 },
-        { "type": "key", "labels": [{ "content": "7", "position": "top left" }], "code": "Numpad7" },
-        { "type": "key", "labels": [{ "content": "8", "position": "top left" }], "code": "Numpad8" },
-        { "type": "key", "labels": [{ "content": "9", "position": "top left" }], "code": "Numpad9" },
-        { "type": "key", "labels": [{ "content": "+", "position": "bottom left" }], "code": "NumpadAdd", "shape": [{ "size": [1, 2] }] }
-      ]
-    },
-    {
-      "elements": [
+        {"size": 1},
         {
-          "type": "key", "labels": [{ "content": "Caps Lock", "position": "middle left" }], "code": "CapsLock",
-          "shape": [{ "size": [1.75, 1] }]
+          "type": "key",
+          "labels": [{"content": "F1", "position": "middle left"}],
+          "code": "F1",
+          "aliases": ["f1"]
         },
-        { "type": "key", "labels": [{ "content": "A", "position": "top left" }], "code": "KeyA" },
-        { "type": "key", "labels": [{ "content": "S", "position": "top left" }], "code": "KeyS" },
-        { "type": "key", "labels": [{ "content": "D", "position": "top left" }], "code": "KeyD" },
-        { "type": "key", "labels": [{ "content": "F", "position": "top left" }], "code": "KeyF" },
-        { "type": "key", "labels": [{ "content": "G", "position": "top left" }], "code": "KeyG" },
-        { "type": "key", "labels": [{ "content": "H", "position": "top left" }], "code": "KeyH" },
-        { "type": "key", "labels": [{ "content": "J", "position": "top left" }], "code": "KeyJ" },
-        { "type": "key", "labels": [{ "content": "K", "position": "top left" }], "code": "KeyK" },
-        { "type": "key", "labels": [{ "content": "L", "position": "top left" }], "code": "KeyL" },
-        { "type": "key", "labels": [{ "content": "Ş", "position": "top left" }], "code": "Semicolon" },
-        { "type": "key", "labels": [{ "content": "İ", "position": "top left" }], "code": "Quote" },
-        { "size": 2.25 },
-
-        { "size": 3.6 },
-        { "type": "key", "labels": [{ "content": "4", "position": "top left" }], "code": "Numpad4" },
-        { "type": "key", "labels": [{ "content": "5", "position": "top left" }], "code": "Numpad5" },
-        { "type": "key", "labels": [{ "content": "6", "position": "top left" }], "code": "Numpad6" }
-      ]
-    },
-    {
-      "elements": [
         {
-          "type": "key", "labels": [{ "content": "Shift", "position": "middle left" }], "code": "ShiftLeft",
-          "shape": [{ "size": [1.25, 1] }]
+          "type": "key",
+          "labels": [{"content": "F2", "position": "middle left"}],
+          "code": "F2",
+          "aliases": ["f2"]
         },
-        { "type": "key", "labels": [{ "content": "<", "position": "bottom left" }], "code": "IntlBackslash" },
-        { "type": "key", "labels": [{ "content": "Z", "position": "top left" }], "code": "KeyZ" },
-        { "type": "key", "labels": [{ "content": "X", "position": "top left" }], "code": "KeyX" },
-        { "type": "key", "labels": [{ "content": "C", "position": "top left" }], "code": "KeyC" },
-        { "type": "key", "labels": [{ "content": "V", "position": "top left" }], "code": "KeyV" },
-        { "type": "key", "labels": [{ "content": "B", "position": "top left" }], "code": "KeyB" },
-        { "type": "key", "labels": [{ "content": "N", "position": "top left" }], "code": "KeyN" },
-        { "type": "key", "labels": [{ "content": "M", "position": "top left" }], "code": "KeyM" },
-        { "type": "key", "labels": [{ "content": "Ö", "position": "top left" }], "code": "Comma" },
-        { "type": "key", "labels": [{ "content": "Ç", "position": "top left" }], "code": "Period" },
-        { "type": "key", "labels": [{ "content": ".", "position": "bottom left" }], "code": "Slash" },
         {
-          "type": "key", "labels": [{ "content": "Shift", "position": "middle left" }], "code": "ShiftRight",
-          "shape": [{ "size": [2.75, 1] }]
+          "type": "key",
+          "labels": [{"content": "F3", "position": "middle left"}],
+          "code": "F3",
+          "aliases": ["f3"]
         },
-
-        { "size": 1.3 },
-        { "type": "key", "labels": [{ "content": "^", "position": "middle center" }], "code": "ArrowUp" },
-        { "size": 1.3 },
-
-        { "type": "key", "labels": [{ "content": "1", "position": "top left" }], "code": "Numpad1" },
-        { "type": "key", "labels": [{ "content": "2", "position": "top left" }], "code": "Numpad2" },
-        { "type": "key", "labels": [{ "content": "3", "position": "top left" }], "code": "Numpad3" },
-        { "type": "key", "labels": [{ "content": "Enter", "position": "bottom left", "sizeMultiplier": 0.7 }], "code": "NumpadEnter", "shape": [{ "size": [1, 2] }] }
+        {
+          "type": "key",
+          "labels": [{"content": "F4", "position": "middle left"}],
+          "code": "F4",
+          "aliases": ["f4"]
+        },
+        {"size": 0.5},
+        {
+          "type": "key",
+          "labels": [{"content": "F5", "position": "middle left"}],
+          "code": "F5",
+          "aliases": ["f5"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "F6", "position": "middle left"}],
+          "code": "F6",
+          "aliases": ["f6"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "F7", "position": "middle left"}],
+          "code": "F7",
+          "aliases": ["f7"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "F8", "position": "middle left"}],
+          "code": "F8",
+          "aliases": ["f8"]
+        },
+        {"size": 0.5},
+        {
+          "type": "key",
+          "labels": [{"content": "F9", "position": "middle left"}],
+          "code": "F9",
+          "aliases": ["f9"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "F10", "position": "middle left"}],
+          "code": "F10",
+          "aliases": ["f10"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "F11", "position": "middle left"}],
+          "code": "F11",
+          "aliases": ["f11"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "F12", "position": "middle left"}],
+          "code": "F12",
+          "aliases": ["f12"]
+        },
+        {"size": 0.3},
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "PrtSc SysRq",
+              "position": "middle left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "PrintScreen",
+          "aliases": ["printscreen", "f13"]
+        },
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "Scroll Lock",
+              "position": "middle left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "ScrollLock",
+          "aliases": ["scrolllock", "f14"]
+        },
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "Pause Break",
+              "position": "middle left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "Pause",
+          "aliases": ["pausebreak", "f15"]
+        }
       ]
     },
     {
       "elements": [
         {
-          "type": "key", "labels": [{ "content": "Ctrl", "position": "middle left" }], "code": "ControlLeft",
-          "shape": [{ "size": [1.5, 1] }]
+          "type": "key",
+          "labels": [{"content": "\"", "position": "bottom left"}],
+          "code": "Backquote",
+          "aliases": ["backquote"]
         },
         {
-          "type": "key", "labels": [{ "content": "Win", "position": "middle left" }], "code": "MetaLeft",
-          "shape": [{ "size": [1.25, 1] }]
+          "type": "key",
+          "labels": [{"content": "1", "position": "bottom left"}],
+          "code": "Digit1",
+          "aliases": ["1", "digit1"]
         },
         {
-          "type": "key", "labels": [{ "content": "Alt", "position": "middle left" }], "code": "AltLeft",
-          "shape": [{ "size": [1.25, 1] }]
+          "type": "key",
+          "labels": [{"content": "2", "position": "bottom left"}],
+          "code": "Digit2",
+          "aliases": ["2", "digit2"]
         },
         {
-          "type": "key", "labels": [], "code": "Space",
-          "shape": [{ "size": [5.75, 1] }]
+          "type": "key",
+          "labels": [{"content": "3", "position": "bottom left"}],
+          "code": "Digit3",
+          "aliases": ["3", "digit3"]
         },
         {
-          "type": "key", "labels": [{ "content": "Alt Gr", "position": "middle left" }], "code": "AltRight",
-          "shape": [{ "size": [1.25, 1] }]
+          "type": "key",
+          "labels": [{"content": "4", "position": "bottom left"}],
+          "code": "Digit4",
+          "aliases": ["4", "digit4"]
         },
         {
-          "type": "key", "labels": [{ "content": "Win", "position": "middle left" }], "code": "MetaRight",
-          "shape": [{ "size": [1.25, 1] }]
+          "type": "key",
+          "labels": [{"content": "5", "position": "bottom left"}],
+          "code": "Digit5",
+          "aliases": ["5", "digit5"]
         },
         {
-          "type": "key", "labels": [{ "content": "", "position": "middle left" }], "code": "ContextMenu",
-          "shape": [{ "size": [1.25, 1] }]
+          "type": "key",
+          "labels": [{"content": "6", "position": "bottom left"}],
+          "code": "Digit6",
+          "aliases": ["6", "digit6"]
         },
         {
-          "type": "key", "labels": [{ "content": "Ctrl", "position": "middle left" }], "code": "ControlRight",
-          "shape": [{ "size": [1.5, 1] }]
+          "type": "key",
+          "labels": [{"content": "7", "position": "bottom left"}],
+          "code": "Digit7",
+          "aliases": ["7", "digit7"]
         },
-
-        { "size": 0.3 },
-        { "type": "key", "labels": [{ "content": "<", "position": "middle center" }], "code": "ArrowLeft" },
-        { "type": "key", "labels": [{ "content": "v", "position": "middle center" }], "code": "ArrowDown" },
-        { "type": "key", "labels": [{ "content": ">", "position": "middle center" }], "code": "ArrowRight" },
-        { "size": 0.3 },
-
-        { "type": "key", "labels": [{ "content": "0", "position": "top left" }], "code": "Numpad0", "shape": [{ "size": [2, 1] }] },
-        { "type": "key", "labels": [{ "content": ",", "position": "top left" }], "code": "NumpadDecimal" }
+        {
+          "type": "key",
+          "labels": [{"content": "8", "position": "bottom left"}],
+          "code": "Digit8",
+          "aliases": ["8", "digit8"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "9", "position": "bottom left"}],
+          "code": "Digit9",
+          "aliases": ["9", "digit9"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "0", "position": "bottom left"}],
+          "code": "Digit0",
+          "aliases": ["0", "digit0"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "*", "position": "bottom left"}],
+          "code": "Minus",
+          "aliases": ["minus"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "-", "position": "bottom left"}],
+          "code": "Equal",
+          "aliases": ["equal"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": ",", "position": "bottom left"}],
+          "code": "Backslash",
+          "aliases": ["backslash"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "<", "position": "middle center"}],
+          "code": "Backspace",
+          "aliases": ["backspace"]
+        },
+        {"size": 0.3},
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "Insert",
+              "position": "middle left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "Insert",
+          "aliases": ["insert"]
+        },
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "Home",
+              "position": "middle left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "Home",
+          "aliases": ["home"]
+        },
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "Page Up",
+              "position": "middle left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "PageUp",
+          "aliases": ["pageup"]
+        },
+        {"size": 0.3},
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "Num Lock",
+              "position": "middle left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "NumLock",
+          "aliases": ["numlock"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "/", "position": "middle left"}],
+          "code": "NumpadDivide",
+          "aliases": ["numpad_divide"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "*", "position": "middle left"}],
+          "code": "NumpadMultiply",
+          "aliases": ["numpad_multiply"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "-", "position": "middle left"}],
+          "code": "NumpadSubtract",
+          "aliases": ["numpad_subtract"]
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "type": "key",
+          "labels": [{"content": "Tab", "position": "middle left"}],
+          "code": "Tab",
+          "shape": [{"size": [1.5, 1]}],
+          "aliases": ["tab"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Q", "position": "top left"}],
+          "code": "KeyQ",
+          "aliases": ["q"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "W", "position": "top left"}],
+          "code": "KeyW",
+          "aliases": ["w"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "E", "position": "top left"}],
+          "code": "KeyE",
+          "aliases": ["e"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "R", "position": "top left"}],
+          "code": "KeyR",
+          "aliases": ["r"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "T", "position": "top left"}],
+          "code": "KeyT",
+          "aliases": ["t"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Y", "position": "top left"}],
+          "code": "KeyY",
+          "aliases": ["y"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "U", "position": "top left"}],
+          "code": "KeyU",
+          "aliases": ["u"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "I", "position": "top left"}],
+          "code": "KeyI",
+          "aliases": ["i"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "O", "position": "top left"}],
+          "code": "KeyO",
+          "aliases": ["o"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "P", "position": "top left"}],
+          "code": "KeyP",
+          "aliases": ["p"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Ğ", "position": "top left"}],
+          "code": "BracketLeft",
+          "aliases": ["bracketleft"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Ü", "position": "top left"}],
+          "code": "BracketRight",
+          "aliases": ["bracketright"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Enter", "position": [0, 1.5, 0, -0.5]}],
+          "code": "Enter",
+          "shape": [
+            {"size": [1.5, 2]},
+            {"size": [2.25, 1], "position": [-0.75, 1]}
+          ],
+          "aliases": ["enter", "return"]
+        },
+        {"size": 0.3},
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "Delete",
+              "position": "middle left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "Delete",
+          "aliases": ["delete"]
+        },
+        {
+          "type": "key",
+          "labels": [
+            {"content": "End", "position": "middle left", "sizeMultiplier": 0.7}
+          ],
+          "code": "End",
+          "aliases": ["end"]
+        },
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "Page Down",
+              "position": "middle left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "PageDown",
+          "aliases": ["pagedown"]
+        },
+        {"size": 0.3},
+        {
+          "type": "key",
+          "labels": [{"content": "7", "position": "top left"}],
+          "code": "Numpad7",
+          "aliases": ["numpad7"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "8", "position": "top left"}],
+          "code": "Numpad8",
+          "aliases": ["numpad8"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "9", "position": "top left"}],
+          "code": "Numpad9",
+          "aliases": ["numpad9"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "+", "position": "bottom left"}],
+          "code": "NumpadAdd",
+          "shape": [{"size": [1, 2]}],
+          "aliases": ["numpad_add"]
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "type": "key",
+          "labels": [{"content": "Caps Lock", "position": "middle left"}],
+          "code": "CapsLock",
+          "shape": [{"size": [1.75, 1]}],
+          "aliases": ["capslock"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "A", "position": "top left"}],
+          "code": "KeyA",
+          "aliases": ["a"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "S", "position": "top left"}],
+          "code": "KeyS",
+          "aliases": ["s"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "D", "position": "top left"}],
+          "code": "KeyD",
+          "aliases": ["d"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "F", "position": "top left"}],
+          "code": "KeyF",
+          "aliases": ["f"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "G", "position": "top left"}],
+          "code": "KeyG",
+          "aliases": ["g"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "H", "position": "top left"}],
+          "code": "KeyH",
+          "aliases": ["h"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "J", "position": "top left"}],
+          "code": "KeyJ",
+          "aliases": ["j"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "K", "position": "top left"}],
+          "code": "KeyK",
+          "aliases": ["k"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "L", "position": "top left"}],
+          "code": "KeyL",
+          "aliases": ["l"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Ş", "position": "top left"}],
+          "code": "Semicolon",
+          "aliases": ["semicolon"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "İ", "position": "top left"}],
+          "code": "Quote",
+          "aliases": ["quote"]
+        },
+        {"size": 2.25},
+        {"size": 3.6},
+        {
+          "type": "key",
+          "labels": [{"content": "4", "position": "top left"}],
+          "code": "Numpad4",
+          "aliases": ["numpad4"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "5", "position": "top left"}],
+          "code": "Numpad5",
+          "aliases": ["numpad5"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "6", "position": "top left"}],
+          "code": "Numpad6",
+          "aliases": ["numpad6"]
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "type": "key",
+          "labels": [{"content": "Shift", "position": "middle left"}],
+          "code": "ShiftLeft",
+          "shape": [{"size": [1.25, 1]}],
+          "aliases": ["shift"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "<", "position": "bottom left"}],
+          "code": "IntlBackslash",
+          "aliases": ["<", "intlbackslash"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Z", "position": "top left"}],
+          "code": "KeyZ",
+          "aliases": ["z"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "X", "position": "top left"}],
+          "code": "KeyX",
+          "aliases": ["x"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "C", "position": "top left"}],
+          "code": "KeyC",
+          "aliases": ["c"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "V", "position": "top left"}],
+          "code": "KeyV",
+          "aliases": ["v"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "B", "position": "top left"}],
+          "code": "KeyB",
+          "aliases": ["b"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "N", "position": "top left"}],
+          "code": "KeyN",
+          "aliases": ["n"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "M", "position": "top left"}],
+          "code": "KeyM",
+          "aliases": ["m"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Ö", "position": "top left"}],
+          "code": "Comma",
+          "aliases": ["comma"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Ç", "position": "top left"}],
+          "code": "Period",
+          "aliases": ["period"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": ".", "position": "bottom left"}],
+          "code": "Slash",
+          "aliases": ["slash"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Shift", "position": "middle left"}],
+          "code": "ShiftRight",
+          "shape": [{"size": [2.75, 1]}],
+          "aliases": ["shift", "right_shift"]
+        },
+        {"size": 1.3},
+        {
+          "type": "key",
+          "labels": [{"content": "^", "position": "middle center"}],
+          "code": "ArrowUp",
+          "aliases": ["up"]
+        },
+        {"size": 1.3},
+        {
+          "type": "key",
+          "labels": [{"content": "1", "position": "top left"}],
+          "code": "Numpad1",
+          "aliases": ["numpad1"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "2", "position": "top left"}],
+          "code": "Numpad2",
+          "aliases": ["numpad2"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "3", "position": "top left"}],
+          "code": "Numpad3",
+          "aliases": ["numpad3"]
+        },
+        {
+          "type": "key",
+          "labels": [
+            {
+              "content": "Enter",
+              "position": "bottom left",
+              "sizeMultiplier": 0.7
+            }
+          ],
+          "code": "NumpadEnter",
+          "shape": [{"size": [1, 2]}],
+          "aliases": ["numpad_enter"]
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "type": "key",
+          "labels": [{"content": "Ctrl", "position": "middle left"}],
+          "code": "ControlLeft",
+          "shape": [{"size": [1.5, 1]}],
+          "aliases": ["ctrl", "control", "left_ctrl", "left_control"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Win", "position": "middle left"}],
+          "code": "MetaLeft",
+          "shape": [{"size": [1.25, 1]}],
+          "aliases": ["meta", "win", "cmd", "left_meta", "left_win", "left_cmd"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Alt", "position": "middle left"}],
+          "code": "AltLeft",
+          "shape": [{"size": [1.25, 1]}],
+          "aliases": ["alt", "left_alt"]
+        },
+        {
+          "type": "key",
+          "labels": [],
+          "code": "Space",
+          "shape": [{"size": [5.75, 1]}],
+          "aliases": ["space"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Alt Gr", "position": "middle left"}],
+          "code": "AltRight",
+          "shape": [{"size": [1.25, 1]}],
+          "aliases": ["altgr", "right_alt"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Win", "position": "middle left"}],
+          "code": "MetaRight",
+          "shape": [{"size": [1.25, 1]}],
+          "aliases": ["right_meta", "right_win", "right_cmd"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "", "position": "middle left"}],
+          "code": "ContextMenu",
+          "shape": [{"size": [1.25, 1]}],
+          "aliases": ["contextmenu"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "Ctrl", "position": "middle left"}],
+          "code": "ControlRight",
+          "shape": [{"size": [1.5, 1]}],
+          "aliases": ["right_ctrl", "right_control"]
+        },
+        {"size": 0.3},
+        {
+          "type": "key",
+          "labels": [{"content": "<", "position": "middle center"}],
+          "code": "ArrowLeft",
+          "aliases": ["left"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": "v", "position": "middle center"}],
+          "code": "ArrowDown",
+          "aliases": ["down"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": ">", "position": "middle center"}],
+          "code": "ArrowRight",
+          "aliases": ["right"]
+        },
+        {"size": 0.3},
+        {
+          "type": "key",
+          "labels": [{"content": "0", "position": "top left"}],
+          "code": "Numpad0",
+          "shape": [{"size": [2, 1]}],
+          "aliases": ["numpad0"]
+        },
+        {
+          "type": "key",
+          "labels": [{"content": ",", "position": "top left"}],
+          "code": "NumpadDecimal",
+          "aliases": ["numpad_decimal"]
+        }
       ]
     }
   ]
